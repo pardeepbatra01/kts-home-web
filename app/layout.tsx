@@ -2,7 +2,13 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Fluent Home'
+  title: 'KTS Home',
+  description: 'Smart Home Security and Automation Solutions',
+  icons: {
+    icon: 'logo.png',
+    apple: 'logo.png',
+    shortcut: 'logo.png'
+  }
 }
 
 export default function RootLayout({
@@ -12,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+        <body>{children}</body>
     </html>
   )
 }

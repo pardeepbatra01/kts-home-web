@@ -6,30 +6,7 @@ export default function PackageTheftSection() {
     <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="relative">
-            <Image
-              src="parcel.webp"
-              alt="Package delivery protection system"
-              width={600}
-              height={500}
-              className="w-full h-auto rounded-lg"
-            />
-            </div>
-
-            {/* Package alert overlay */}
-            <div className="absolute top-8 right-8 bg-white rounded-lg shadow-xl p-4">
-              <div className="flex items-center space-x-3">
-                <Package className="w-6 h-6 text-blue-600" />
-                <div>
-                  <div className="font-semibold text-slate-800">Package Delivered</div>
-                  <div className="text-sm text-slate-600">Front door - 2:34 PM</div>
-                </div>
-              </div>
-            </div>
-
-           
-
-          <div className="space-y-6">
+          <div className="space-y-6 order-2">
             <h2 className="text-4xl lg:text-5xl font-bold text-slate-800 leading-tight">
               Stop Package Theft Before It Happens
             </h2>
@@ -74,6 +51,30 @@ export default function PackageTheftSection() {
               </div>
             </div>
           </div>
+
+          <div className="relative order-1">
+            <Image
+              src="parcel.webp"
+              alt="Package delivery protection system"
+              width={600}
+              height={500}
+              className="w-full h-auto rounded-lg"
+            />
+            {/* Package alert overlay */}
+            <div className="absolute top-8 right-8 bg-white rounded-lg shadow-xl p-4">
+              <div className="flex items-center space-x-3">
+                <Package className="w-6 h-6 text-blue-600" />
+                <div>
+                  <div className="font-semibold text-slate-800">Package Delivered</div>
+                  <div className="text-sm text-slate-600">Front door - 2:34 PM</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+           
+
+
         </div>
       </div>
     </section>

@@ -4,7 +4,7 @@ import Link from "next/link"
 export default function ProductShowcase() {
   const products = [
     {
-      image: "/smart-control-panel.webp",
+      image: "/smart-home.jpg",
       name: "Smart Control Panel",
       link: "#"
     },
@@ -54,8 +54,8 @@ export default function ProductShowcase() {
       link: "#"
     },
     {
-      image: "/home-app.png",
-      name: "Fluent Home App",
+      image: "/home-app.jpg",
+      name: "KTS Home App",
       link: "#"
     },
     {

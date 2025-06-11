@@ -47,6 +47,10 @@ export default function ContactForm() {
                 placeholder="Phone Number*"
                 className="w-full h-9 px-3 text-sm border border-gray-200 rounded focus:border-blue-500 focus:ring-0"
               />
+               <textarea rows={20} cols={50}
+                placeholder="Message*"
+                className="w-full h-9 px-3 text-sm border border-gray-200 rounded focus:border-blue-500 focus:ring-0"
+              />
               
               <Button
                 type="submit"

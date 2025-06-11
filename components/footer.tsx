@@ -13,26 +13,22 @@ export default function Footer() {
           {/* Home Security */}
           <div>
             <h3 className="text-lg font-semibold mb-4">Home Security</h3>
-            <ul className="space-y-2">
-              <li><Link href="#" className="text-blue-100/80 hover:text-white text-sm">Security Systems</Link></li>
-              <li><Link href="#" className="text-blue-100/80 hover:text-white text-sm">Video Surveillance</Link></li>
-              <li><Link href="#" className="text-blue-100/80 hover:text-white text-sm">Smart Cameras</Link></li>
-              <li><Link href="#" className="text-blue-100/80 hover:text-white text-sm">Door/Window Sensors</Link></li>
-              <li><Link href="#" className="text-blue-100/80 hover:text-white text-sm">Motion Detectors</Link></li>
-              <li><Link href="#" className="text-blue-100/80 hover:text-white text-sm">Professional Monitoring</Link></li>
-            </ul>
+            <ul className="space-y-2"> <li><Link href={process.env.NEXT_PUBLIC_BASE_PATH ? `${process.env.NEXT_PUBLIC_BASE_PATH}/home-app` : '/home-app'} className="text-blue-100/80 hover:text-white text-sm">Smart Home App</Link></li>
+              <li><Link href={process.env.NEXT_PUBLIC_BASE_PATH ? `${process.env.NEXT_PUBLIC_BASE_PATH}/control-panel` : '/control-panel'} className="text-blue-100/80 hover:text-white text-sm">Control Panel</Link></li>
+              <li><Link href={process.env.NEXT_PUBLIC_BASE_PATH ? `${process.env.NEXT_PUBLIC_BASE_PATH}/carbon-monoxide` : '/carbon-monoxide'} className="text-blue-100/80 hover:text-white text-sm">CO Detector</Link></li>
+              <li><Link href={process.env.NEXT_PUBLIC_BASE_PATH ? `${process.env.NEXT_PUBLIC_BASE_PATH}/smoke-detector` : '/smoke-detector'} className="text-blue-100/80 hover:text-white text-sm">Smart Smoke Detector</Link></li>
+              <li><Link href={process.env.NEXT_PUBLIC_BASE_PATH ? `${process.env.NEXT_PUBLIC_BASE_PATH}/professional-monitoring` : '/professional-monitoring'} className="text-blue-100/80 hover:text-white text-sm">Professional Monitoring</Link></li>
+                  </ul>
           </div>
-
           {/* Home Automation */}
           <div>
             <h3 className="text-lg font-semibold mb-4">Home Automation</h3>
             <ul className="space-y-2">
-              <li><Link href="#" className="text-blue-100/80 hover:text-white text-sm">Smart Thermostats</Link></li>
-              <li><Link href="#" className="text-blue-100/80 hover:text-white text-sm">Smart Lighting</Link></li>
-              <li><Link href="#" className="text-blue-100/80 hover:text-white text-sm">Smart Locks</Link></li>
-              <li><Link href="#" className="text-blue-100/80 hover:text-white text-sm">Garage Door Control</Link></li>
-              <li><Link href="#" className="text-blue-100/80 hover:text-white text-sm">Smart Switches</Link></li>
-              <li><Link href="#" className="text-blue-100/80 hover:text-white text-sm">Voice Control</Link></li>
+              <li><Link href={process.env.NEXT_PUBLIC_BASE_PATH ? `${process.env.NEXT_PUBLIC_BASE_PATH}/smart-thermostat` : '/smart-thermostat'} className="text-blue-100/80 hover:text-white text-sm">Smart Thermostats</Link></li>
+              <li><Link href={process.env.NEXT_PUBLIC_BASE_PATH ? `${process.env.NEXT_PUBLIC_BASE_PATH}/smart-lighting` : '/smart-lighting'} className="text-blue-100/80 hover:text-white text-sm">Smart Lighting</Link></li>
+              <li><Link href={process.env.NEXT_PUBLIC_BASE_PATH ? `${process.env.NEXT_PUBLIC_BASE_PATH}/smart-lock` : '/smart-lock'} className="text-blue-100/80 hover:text-white text-sm">Smart Locks</Link></li>
+              <li><Link href={process.env.NEXT_PUBLIC_BASE_PATH ? `${process.env.NEXT_PUBLIC_BASE_PATH}/smart-garage-door` : '/smart-garage-door'} className="text-blue-100/80 hover:text-white text-sm">Garage Door Control</Link></li>
+              <li><Link href={process.env.NEXT_PUBLIC_BASE_PATH ? `${process.env.NEXT_PUBLIC_BASE_PATH}/smart-switches` : '/smart-switches'} className="text-blue-100/80 hover:text-white text-sm">Smart Switches</Link></li>
             </ul>
           </div>
 
@@ -40,10 +36,9 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Home Cameras</h3>
             <ul className="space-y-2">
-              <li><Link href="#" className="text-blue-100/80 hover:text-white text-sm">Doorbell Camera</Link></li>
-              <li><Link href="#" className="text-blue-100/80 hover:text-white text-sm">Outdoor Camera</Link></li>
-              <li><Link href="#" className="text-blue-100/80 hover:text-white text-sm">Indoor Camera</Link></li>
-              <li><Link href="#" className="text-blue-100/80 hover:text-white text-sm">Floodlight Camera</Link></li>
+              <li><Link href={process.env.NEXT_PUBLIC_BASE_PATH ? `${process.env.NEXT_PUBLIC_BASE_PATH}/doorbell-camera` : '/doorbell-camera'} className="text-blue-100/80 hover:text-white text-sm">Doorbell Camera</Link></li>
+              <li><Link href={process.env.NEXT_PUBLIC_BASE_PATH ? `${process.env.NEXT_PUBLIC_BASE_PATH}/outdoor-camera` : '/outdoor-camera'} className="text-blue-100/80 hover:text-white text-sm">Outdoor Camera</Link></li>
+              <li><Link href={process.env.NEXT_PUBLIC_BASE_PATH ? `${process.env.NEXT_PUBLIC_BASE_PATH}/indoor-camera` : '/indoor-camera'} className="text-blue-100/80 hover:text-white text-sm">Indoor Camera</Link></li>
             </ul>
           </div>
 
@@ -51,7 +46,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Learn More</h3>
             <ul className="space-y-2">
-              <li><Link href="#" className="text-blue-100/80 hover:text-white text-sm">Fluent Blog</Link></li>
+              <li><Link href="#" className="text-blue-100/80 hover:text-white text-sm">Kts Blog</Link></li>
               <li><Link href="#" className="text-blue-100/80 hover:text-white text-sm">FAQ</Link></li>
             </ul>
             <h3 className="text-lg font-semibold mb-4">Learn More</h3>
@@ -70,26 +65,14 @@ export default function Footer() {
               <li><Link href="#" className="text-blue-100/80 hover:text-white text-sm">Email</Link></li>
               <li><Link href="#" className="text-blue-100/80 hover:text-white text-sm">Phone</Link></li>
             </ul>
-            <h3 className="text-lg font-semibold mb-4">Canadian Headquarters</h3>
-          
-              <p><Link href="#" className="text-blue-100/80 hover:text-white text-sm">500 4th Ave SW Suite 2500
-              Calgary, AB T2P2V6</Link></p>
-              <h3 className="text-lg font-semibold mb-4">American Headquarters</h3>
-          
-          <p><Link href="#" className="text-blue-100/80 hover:text-white text-sm">138 E 12300 S
-            STE C147
-            Draper UT 84020</Link></p>
           </div>
          
           </div>
         </div>
 
         {/* Bottom Links */}
-        <div className="flex flex-wrap justify-between items-center pt-8 border-t border-white/10 text-sm">
-          <div className="flex space-x-6">
-           
-          </div>
-          <p className="text-blue-100/80">&copy; 2024 Fluent Home Security. All rights reserved.</p>
+        <div className="flex flex-wrap justify-center items-center pt-8 border-t border-white/10 text-sm">
+          <p className="text-blue-100/80">&copy; 2025 KTS Home Security. All rights reserved.</p>
         </div>
     </footer>
   )

@@ -11,7 +11,7 @@ import PackageTheftSection from "@/components/package-theft-section"
 import VideoAnalyticsSection from "@/components/video-analytics-section"
 import CrimePreventionSection from "@/components/crime-prevention-section"
 import ProductShowcase from "@/components/product-showcase"
-import WhyFluentSection from "@/components/why-fluent-section"
+import WhyKtsSection from "@/components/why-kts-section"
 import LocationsSection from "@/components/locations-section"
 import Footer from "@/components/footer"
 
@@ -20,17 +20,17 @@ export default function Home() {
     <div className="min-h-screen">
       <Header />
       <Navigation />
-      <PromoBanner />
+      {/* <PromoBanner /> */}
       <HeroSection />
       <ContactForm />
-      <AITechnologySection />
+      {/* <AITechnologySection /> */}
       <MobileAppSection />
       <PackageTheftSection />
-      <VideoAnalyticsSection />
-      <CrimePreventionSection />
+      {/* <VideoAnalyticsSection /> */}
+      {/* <CrimePreventionSection /> */}
+      <WhyKtsSection />
       <ProductShowcase />
-      <WhyFluentSection />
-      <ContactForm variant="secondary" />
+      {/* <ContactForm/> */}
       <LocationsSection />
       <Footer />
     </div>

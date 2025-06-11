@@ -11,7 +11,7 @@ export default function AITechnologySection() {
         </div>
 
         <div className="relative">
-        <iframe width="1296" height="729" src="https://www.youtube.com/embed/g1kNtyp-Jn4" title="Deter Intruders with the AI-Powered Outdoor Camera from Fluent Home" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+        <iframe width="1296" height="729" src="https://www.youtube.com/embed/g1kNtyp-Jn4" title="Deter Intruders with the AI-Powered Outdoor Camera from KTS Home" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
 
 
           {/* Overlay content */}

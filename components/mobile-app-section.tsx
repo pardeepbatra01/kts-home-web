@@ -6,7 +6,16 @@ export default function MobileAppSection() {
     <section className="py-20 bg-slate-50">
       <div className="max-w-7xl mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="space-y-8">
+          <div className="relative order-2 lg:order-1">
+            <Image
+              src="home-safety.jpg"
+              alt="Mobile app interface showing security controls"
+              width={600}
+              height={1000}
+              className="w-full max-w-sm mx-auto h-auto"
+            />
+          </div>
+          <div className="space-y-8 order-1 lg:order-2">
             <h2 className="text-4xl lg:text-5xl font-bold text-slate-800 leading-tight">
               Handle every aspect of your home security through one connected app
             </h2>
@@ -59,15 +68,7 @@ export default function MobileAppSection() {
             </div>
           </div>
 
-          <div className="relative">
-            <Image
-              src="/Multiple-Layers-2.webp"
-              alt="Mobile app interface showing security controls"
-              width={400}
-              height={600}
-              className="w-full max-w-sm mx-auto h-auto"
-            />
-          </div>
+
         </div>
       </div>
     </section>

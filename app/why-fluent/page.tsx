@@ -16,7 +16,7 @@ export default function WhyFluentPage() {
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
               <p className="text font-bold text-white mb-6">
-                WHY FLUENT HOME
+                KTS HOME
               </p>
               <h6 className="text-4xl text-white/90 leading-relaxed mb-8">
                 How to choose a Home Security & Automation Company
@@ -105,7 +105,7 @@ export default function WhyFluentPage() {
 
       <section className="bg-gray-50 py-16">
         <div className="max-w-7xl mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Why Choose Fluent</h2>
+          <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Why Choose KTS Home</h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg shadow">
               <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">

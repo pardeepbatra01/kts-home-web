@@ -67,7 +67,7 @@ export default function LocationsSection() {
     <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4">
         <div className="mb-16">
-          <h2 className="text-4xl lg:text-5xl font-bold text-slate-800 mb-6 text-center">Fluent Home Service Locations</h2>
+          <h2 className="text-4xl lg:text-5xl font-bold text-slate-800 mb-6 text-center">Kts Home Service Locations</h2>
           <h2 className="text-xl font-bold text-gray-800 mb-8">United States</h2>
         </div>
 
