@@ -109,9 +109,16 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center mr-4">
-          <Link href="/" className="flex items-center space-x-8">
-              <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-lg"><Image src="logo.png" alt="Logo" width={24} height={24} className="w-6 h-6" /></span>
+          <Link href="/" className="flex items-center">
+              <div className="w-32 h-16 flex items-center justify-center">
+                <Image 
+                  src="logo.svg" 
+                  alt="Logo" 
+                  width={120} 
+                  height={60} 
+                  className="w-full h-full object-contain" 
+                  priority
+                />
               </div>
             </Link>
           </div>
