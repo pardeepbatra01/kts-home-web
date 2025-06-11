@@ -123,7 +123,7 @@ export default function Navigation() {
             </Link>
           </div>
 
-          <div className="hidden lg:flex items-center space-x-6">
+          <div className="hidden lg:flex items-center space-x-6 mx-8">
             {navItems.map((item: NavItem) => (
               <div
                 key={item.id}
@@ -132,10 +132,10 @@ export default function Navigation() {
                 onMouseLeave={handleMouseLeave}
               >
                 {item.hasDropdown ? (
-                  <div className="flex items-center space-x-1 text-slate-700 hover:text-blue-600 transition-colors font-medium cursor-pointer relative group">
-                    <span>{item.label}</span>
+                  <div className="flex items-center text-slate-700 hover:text-blue-600 transition-colors font-medium cursor-pointer relative group">
+                    <span className="whitespace-nowrap text-sm">{item.label}</span>
                     <ChevronDown
-                      className={`w-4 h-4 transition-transform duration-200 ${
+                      className={`w-4 h-4 ml-1 transition-transform duration-200 ${
                         hoveredDropdown === item.id ? "rotate-180" : ""
                       }`}
                     />
@@ -144,7 +144,7 @@ export default function Navigation() {
                 ) : (
                   <Link
                     href={item.href ?? '#'}
-                    className="text-slate-700 hover:text-blue-600 transition-colors font-medium relative group"
+                    className="flex items-center text-slate-700 hover:text-blue-600 transition-colors font-medium relative group whitespace-nowrap text-sm"
                   >
                     {item.label}
                     <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
