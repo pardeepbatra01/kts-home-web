@@ -15,7 +15,7 @@ export default function ThermostatComparisonSection() {
   ]
 
   const competitors = [
-    { name: "Fluent Smart", color: "bg-blue-600" },
+    { name: "Kts Smart", color: "bg-blue-600" },
     { name: "Nest", color: "bg-gray-400" },
     { name: "Ecobee", color: "bg-gray-400" },
     { name: "Honeywell", color: "bg-gray-400" },
@@ -38,7 +38,7 @@ export default function ThermostatComparisonSection() {
             How Our Smart Thermostats Compare to the Competition
           </h2>
           <p className="text-lg lg:text-xl text-slate-600 max-w-3xl mx-auto">
-            See why Fluent smart thermostats offer the most comprehensive features and best value in the market
+            See why Kts smart thermostats offer the most comprehensive features and best value in the market
           </p>
         </div>
 
@@ -97,7 +97,7 @@ export default function ThermostatComparisonSection() {
         <div className="text-center mt-6 lg:mt-8">
           <p className="text-slate-600 mb-4">Ready to upgrade to the most advanced smart thermostat system?</p>
           <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 lg:px-8 py-3 rounded-lg font-semibold transition-colors">
-            Get Your Fluent Smart Thermostat
+            Get Your Kts Smart Thermostat
           </button>
         </div>
       </div>

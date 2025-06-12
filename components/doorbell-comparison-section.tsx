@@ -15,7 +15,7 @@ export default function DoorbellComparisonSection() {
   ]
 
   const competitors = [
-    { name: "Fluent Doorbell", color: "bg-blue-600" },
+    { name: "KTS Doorbell", color: "bg-blue-600" },
     { name: "Ring", color: "bg-gray-400" },
     { name: "Nest Hello", color: "bg-gray-400" },
     { name: "Arlo", color: "bg-gray-400" },
@@ -38,7 +38,7 @@ export default function DoorbellComparisonSection() {
             How Our Doorbell Cameras Stack Up Against the Competition
           </h2>
           <p className="text-lg lg:text-xl text-slate-600 max-w-3xl mx-auto">
-            See why Fluent doorbell cameras offer the most comprehensive features and best value in the market
+            See why KTS doorbell cameras offer the most comprehensive features and best value in the market
           </p>
         </div>
 
@@ -97,7 +97,7 @@ export default function DoorbellComparisonSection() {
         <div className="text-center mt-6 lg:mt-8">
           <p className="text-slate-600 mb-4">Ready to upgrade to the most advanced doorbell camera system?</p>
           <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 lg:px-8 py-3 rounded-lg font-semibold transition-colors">
-            Get Your Fluent Doorbell Camera
+            Get Your KTS Doorbell Camera
           </button>
         </div>
       </div>

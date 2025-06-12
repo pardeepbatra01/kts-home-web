@@ -16,7 +16,7 @@ export default function IndoorCameraFAQ() {
         <Accordion type="single" collapsible className="space-y-4">
           <AccordionItem value="item-1" className="border border-slate-200 rounded-lg px-6">
             <AccordionTrigger className="text-left font-semibold text-slate-800 hover:text-blue-600">
-              How do I set up Fluent Indoor Security Cameras?
+              How do I set up Kts Indoor Security Cameras?
             </AccordionTrigger>
             <AccordionContent className="text-slate-600 pt-4">
               Our certified technicians provide professional installation and setup of your indoor cameras. The process
@@ -74,7 +74,7 @@ export default function IndoorCameraFAQ() {
               Is cloud storage included with indoor cameras?
             </AccordionTrigger>
             <AccordionContent className="text-slate-600 pt-4">
-              Yes! All Fluent indoor cameras include secure cloud storage for your recorded footage. Videos are
+              Yes! All Kts indoor cameras include secure cloud storage for your recorded footage. Videos are
               encrypted and stored safely in the cloud, accessible through your mobile app or web portal. You can view,
               download, and share recordings as needed. Storage duration varies by plan, with options for extended
               retention.

@@ -28,7 +28,7 @@ export default function SmartLockProduct() {
           <div className="relative">
             <Image
               src="close-up-uses-intercom.jpg"
-              alt="Fluent Smart Door Lock"
+              alt=" Kts Smart Door Lock"
               width={400}
               height={500}
               className="w-full max-w-md mx-auto h-auto"

@@ -16,7 +16,7 @@ export default function SmartHomeExperienceSection() {
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-12 lg:mb-16">
           <h2 className="text-3xl lg:text-4xl xl:text-5xl font-bold text-slate-800 mb-4 lg:mb-6">
-            Complete Fluent Smart Home experience with 24/7 alerts, notifications and more
+            Complete Kts Smart Home experience with 24/7 alerts, notifications and more
           </h2>
           <p className="text-lg lg:text-xl text-slate-600 max-w-3xl mx-auto">
             Your doorbell camera integrates seamlessly with your entire smart home ecosystem

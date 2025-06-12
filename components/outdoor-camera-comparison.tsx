@@ -15,16 +15,16 @@ export default function OutdoorCameraComparison() {
   ]
 
   const competitors = [
-    { name: "Fluent Outdoor", color: "bg-blue-600" },
+    { name: "Kts Outdoor", color: "bg-blue-600" },
     { name: "Arlo", color: "bg-gray-400" },
     { name: "Ring", color: "bg-gray-400" },
     { name: "Nest", color: "bg-gray-400" },
   ]
 
-  // Fluent has all features, others have random subset
+  // Kts Outdoor has all features, others have random subset
   const comparisonData = features.map((feature, index) => ({
     feature,
-    fluent: true,
+    kts: true,
     arlo: index % 3 !== 0,
     ring: index % 2 !== 0,
     nest: index % 4 !== 0,
@@ -38,7 +38,7 @@ export default function OutdoorCameraComparison() {
             How Our Outdoor Cameras Stack Up Against the Competition
           </h2>
           <p className="text-lg lg:text-xl text-slate-600 max-w-3xl mx-auto">
-            See why Fluent outdoor cameras offer the most comprehensive features and best value in the market
+            See why Kts outdoor cameras offer the most comprehensive features and best value in the market
           </p>
         </div>
 
@@ -67,6 +67,13 @@ export default function OutdoorCameraComparison() {
                       <CheckCircle className="w-5 h-5 lg:w-6 lg:h-6 text-blue-600 mx-auto" />
                     </td>
                     <td className="p-4 lg:p-6 text-center">
+                      {row.kts ? (
+                        <CheckCircle className="w-5 h-5 lg:w-6 lg:h-6 text-green-600 mx-auto" />
+                      ) : (
+                        <X className="w-5 h-5 lg:w-6 lg:h-6 text-red-500 mx-auto" />
+                      )}
+                    </td>
+                    <td className="p-4 lg:p-6 text-center">
                       {row.arlo ? (
                         <CheckCircle className="w-5 h-5 lg:w-6 lg:h-6 text-green-600 mx-auto" />
                       ) : (
@@ -74,14 +81,7 @@ export default function OutdoorCameraComparison() {
                       )}
                     </td>
                     <td className="p-4 lg:p-6 text-center">
-                      {row.ring ? (
-                        <CheckCircle className="w-5 h-5 lg:w-6 lg:h-6 text-green-600 mx-auto" />
-                      ) : (
-                        <X className="w-5 h-5 lg:w-6 lg:h-6 text-red-500 mx-auto" />
-                      )}
-                    </td>
-                    <td className="p-4 lg:p-6 text-center">
-                      {row.nest ? (
+                      {row.arlo ? (
                         <CheckCircle className="w-5 h-5 lg:w-6 lg:h-6 text-green-600 mx-auto" />
                       ) : (
                         <X className="w-5 h-5 lg:w-6 lg:h-6 text-red-500 mx-auto" />
@@ -97,7 +97,7 @@ export default function OutdoorCameraComparison() {
         <div className="text-center mt-6 lg:mt-8">
           <p className="text-slate-600 mb-4">Ready to upgrade to the most advanced outdoor camera system?</p>
           <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 lg:px-8 py-3 rounded-lg font-semibold transition-colors">
-            Get Your Fluent Outdoor Cameras
+            Get Your Kts Outdoor Cameras
           </button>
         </div>
       </div>

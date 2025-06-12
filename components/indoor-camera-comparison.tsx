@@ -9,7 +9,7 @@ export default function IndoorCameraComparison() {
             How Our Indoor Cameras Stack Up Against the Competition
           </h2>
           <p className="text-lg text-slate-600 max-w-3xl mx-auto">
-            Compare features and see why Fluent indoor cameras offer the best value and performance for your home
+            Compare features and see why KTS indoor cameras offer the best value and performance for your home
             security needs.
           </p>
         </div>
@@ -19,7 +19,7 @@ export default function IndoorCameraComparison() {
             <thead>
               <tr className="bg-slate-50">
                 <th className="text-left p-4 font-semibold text-slate-800">Features</th>
-                <th className="text-center p-4 font-semibold text-white bg-blue-600">Fluent</th>
+                <th className="text-center p-4 font-semibold text-white bg-blue-600">KTS</th>
                 <th className="text-center p-4 font-semibold text-slate-800">Wyze</th>
                 <th className="text-center p-4 font-semibold text-slate-800">Ring</th>
                 <th className="text-center p-4 font-semibold text-slate-800">Nest</th>
@@ -182,7 +182,7 @@ export default function IndoorCameraComparison() {
 
         <div className="text-center mt-8">
           <p className="text-slate-600 mb-4">
-            See why thousands of homeowners choose Fluent for their indoor security needs.
+            See why thousands of homeowners choose KTS for their indoor security needs.
           </p>
         </div>
       </div>

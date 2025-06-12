@@ -31,7 +31,7 @@ export default function SmartThermostatHero() {
             </h1>
 
             <p className="text-lg lg:text-xl text-blue-100 leading-relaxed max-w-xl">
-              Control your home temperature, reduce energy costs, and integrate seamlessly with your Fluent home
+              Control your home temperature, reduce energy costs, and integrate seamlessly with your Kts  home
               security system for the ultimate in comfort, convenience, and energy efficiency.
             </p>
 

@@ -77,9 +77,9 @@ export default function Navigation() {
       label: "Commercial Security",
       hasDropdown: true,
       dropdownItems: [
-        { label: "Commercial Systems", href: process.env.NEXT_PUBLIC_BASE_PATH ? `${process.env.NEXT_PUBLIC_BASE_PATH}/commercial-security` : '/commercial-security' },
-        { label: "Access Control", href: process.env.NEXT_PUBLIC_BASE_PATH ? `${process.env.NEXT_PUBLIC_BASE_PATH}/access-control` : '/access-control' },
-        { label: "Video Surveillance", href: process.env.NEXT_PUBLIC_BASE_PATH ? `${process.env.NEXT_PUBLIC_BASE_PATH}/outdoor-cameras` : '/outdoor-cameras' },
+        { label: "Commercial Security Systems", href: process.env.NEXT_PUBLIC_BASE_PATH ? `${process.env.NEXT_PUBLIC_BASE_PATH}/commercial-security` : '/commercial-security' },
+        { label: "Monitoring & Security", href: "#" },
+        { label: "Intrusion Monitoring", href: "#" },
       ],
     },
     {
@@ -87,9 +87,9 @@ export default function Navigation() {
       label: "Enterprise Solutions",
       hasDropdown: true,
       dropdownItems: [
-        { label: "Building Management", href: process.env.NEXT_PUBLIC_BASE_PATH ? `${process.env.NEXT_PUBLIC_BASE_PATH}/commercial-security` : '/commercial-security' },
-        { label: "Energy Management", href: process.env.NEXT_PUBLIC_BASE_PATH ? `${process.env.NEXT_PUBLIC_BASE_PATH}/smart-thermostat` : '/smart-thermostat' },
-        { label: "Smart Controls", href: process.env.NEXT_PUBLIC_BASE_PATH ? `${process.env.NEXT_PUBLIC_BASE_PATH}/access-control` : '/access-control' },
+        { label: "Access Control", href: process.env.NEXT_PUBLIC_BASE_PATH ? `${process.env.NEXT_PUBLIC_BASE_PATH}/access-control` : '/access-control' },
+        { label: "Smart Security", href: "#" },
+        { label: "Camera System", href: "#" },
       ],
     },
     {
@@ -97,9 +97,9 @@ export default function Navigation() {
       label: "Partnerships",
       hasDropdown: true,
       dropdownItems: [
-        { label: "Dealer Program", href: process.env.NEXT_PUBLIC_BASE_PATH ? `${process.env.NEXT_PUBLIC_BASE_PATH}/dealer-program` : '/dealer-program' },
-        { label: "Installer Network", href: process.env.NEXT_PUBLIC_BASE_PATH ? `${process.env.NEXT_PUBLIC_BASE_PATH}/installer-network` : '/installer-network' },
-        { label: "Technology Partners", href: process.env.NEXT_PUBLIC_BASE_PATH ? `${process.env.NEXT_PUBLIC_BASE_PATH}/technology-partners` : '/technology-partners' },
+        { label: "Common Sense", href: process.env.NEXT_PUBLIC_BASE_PATH ? `${process.env.NEXT_PUBLIC_BASE_PATH}/partnership` : '/partnership' },
+        { label: "Intact Assurance", href: "#" },
+        
       ],
     },
   ]
