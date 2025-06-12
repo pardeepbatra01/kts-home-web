@@ -93,7 +93,6 @@ export default function DoorbellComparisonSection() {
             </table>
           </div>
         </div>
-
         <div className="text-center mt-6 lg:mt-8">
           <p className="text-slate-600 mb-4">Ready to upgrade to the most advanced doorbell camera system?</p>
           <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 lg:px-8 py-3 rounded-lg font-semibold transition-colors">
