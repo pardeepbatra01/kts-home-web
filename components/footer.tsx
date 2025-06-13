@@ -59,7 +59,7 @@ export default function Footer() {
             <div></div>
             <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
             <ul className="space-y-2">
-              <li><Link href="#" className="text-blue-100/80 hover:text-white text-sm">Email</Link></li>
+              <li><Link href="mailto:support@ktshome.ca" className="text-blue-100/80 hover:text-white text-sm">Email</Link></li>
               <li><Link href="#" className="text-blue-100/80 hover:text-white text-sm">Phone</Link></li>
             </ul>
           </div>
