@@ -46,15 +46,12 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Learn More</h3>
             <ul className="space-y-2">
-              <li><Link href="#" className="text-blue-100/80 hover:text-white text-sm">Kts Blog</Link></li>
-              <li><Link href="#" className="text-blue-100/80 hover:text-white text-sm">FAQ</Link></li>
+              <li><Link href={process.env.NEXT_PUBLIC_BASE_PATH ? `${process.env.NEXT_PUBLIC_BASE_PATH}/faq` : '/faq'} className="text-blue-100/80 hover:text-white text-sm">FAQ</Link></li>
             </ul>
             <h3 className="text-lg font-semibold mb-4">Learn More</h3>
             <ul className="space-y-2">
-              <li><Link href="#" className="text-blue-100/80 hover:text-white text-sm">Support</Link></li>
-              <li><Link href="#" className="text-blue-100/80 hover:text-white text-sm">Careers</Link></li>
-              <li><Link href="#" className="text-blue-100/80 hover:text-white text-sm">Licensing</Link></li>
-              <li><Link href="#" className="text-blue-100/80 hover:text-white text-sm">Rep Verification</Link></li>
+              <li><Link href={process.env.NEXT_PUBLIC_BASE_PATH ? `${process.env.NEXT_PUBLIC_BASE_PATH}/support` : '/support'}className="text-blue-100/80 hover:text-white text-sm">Support</Link></li>
+              <li><Link href={process.env.NEXT_PUBLIC_BASE_PATH ? `${process.env.NEXT_PUBLIC_BASE_PATH}/licensing` : '/licensing'} className="text-blue-100/80 hover:text-white text-sm">Licensing</Link></li>
             </ul>
 
           </div>

@@ -57,7 +57,7 @@ export default function ConvenienceSecuritySection() {
           {/* Person using smartphone image - moved to left (originally on right in reference) */}
           <div className="relative lg:order-1 mt-8 lg:mt-0">
             <Image
-              src="/placeholder.svg?height=500&width=400"
+              src="smart-control-panel.jpg"
               alt="Person using smartphone to control garage door"
               width={400}
               height={500}

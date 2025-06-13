@@ -59,7 +59,7 @@ export default function MobileGarageControl() {
           {/* Mobile app mockup - moved to left (originally on right in reference) */}
           <div className="relative lg:order-1 mt-8 lg:mt-0">
             <Image
-              src="/placeholder.svg?height=600&width=300"
+              src="smart-control-panel.jpg"
               alt="Smart garage door control mobile app interface"
               width={300}
               height={600}

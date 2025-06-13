@@ -112,7 +112,7 @@ export default function Navigation() {
           <Link href="/" className="flex items-center">
               <div className="w-32 h-16 flex items-center justify-center">
                 <Image 
-                  src="logo.svg" 
+                  src="logo.png" 
                   alt="Logo" 
                   width={120} 
                   height={60} 

@@ -48,7 +48,7 @@ export default function SmartGarageDoorHero() {
           {/* Garage door image - moved to left (originally on right in reference) */}
           <div className="relative lg:order-1 mt-8 lg:mt-0">
             <Image
-              src="/placeholder.svg?height=500&width=600"
+              src="scanning-finger-coronavirus-contaminated-fingerprint-access-control.jpg"
               alt="Smart garage door with modern home"
               width={600}
               height={500}

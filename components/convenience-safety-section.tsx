@@ -58,7 +58,7 @@ export default function ConvenienceSafetySection() {
           {/* Wall outlet with smart switch image - moved to right (originally on left in reference) */}
           <div className="relative lg:order-2 mt-8 lg:mt-0">
             <Image
-              src="/placeholder.svg?height=500&width=600"
+              src="person-using-smartphone-his-automated-home.jpg"
               alt="Smart switch installed in wall outlet"
               width={600}
               height={500}

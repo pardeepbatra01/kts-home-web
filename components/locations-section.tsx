@@ -10,7 +10,7 @@ export default function LocationsSection() {
       <div className="max-w-7xl mx-auto px-4">
         <div className="mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-slate-800 mb-6 text-center">Kts Home Service Locations</h2>
-          <h2 className="text-2xl font-bold text-gray-800 mb-8 text-center">Serving Alberta, Canada</h2>
+          <h2 className="text-2xl font-bold text-gray-800 mb-8 text-center">Serving Alberta,Canada</h2>
         </div>
         <div className="max-w-4xl mx-auto">
           <h3 className="text-2xl font-bold text-gray-800 mb-6 text-center"></h3>

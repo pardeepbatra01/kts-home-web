@@ -59,7 +59,7 @@ export default function MobileSwitchControl() {
           {/* Mobile app mockup - moved to right (originally on left in reference) */}
           <div className="relative lg:order-2 mt-8 lg:mt-0">
             <Image
-              src="/placeholder.svg?height=600&width=300"
+              src="home-app.jpg"
               alt="Smart switch control mobile app interface"
               width={300}
               height={600}

@@ -21,7 +21,7 @@ export default function SmartSwitchesHero() {
           {/* Living room image - moved to left (originally on right in reference) */}
           <div className="relative lg:order-1 mt-8 lg:mt-0">
             <Image
-              src="/placeholder.svg?height=500&width=600"
+              src="young-man-using-smart-home-application-software-touching-screen-turn-light-by-mobile-phone.jpg"
               alt="Person controlling smart switches in modern living room"
               width={600}
               height={500}

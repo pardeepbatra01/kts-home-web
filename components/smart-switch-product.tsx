@@ -90,7 +90,7 @@ export default function SmartSwitchProduct() {
           {/* Smart switch device image - moved to right (originally on left in reference) */}
           <div className="relative lg:order-2 mt-8 lg:mt-0">
             <Image
-              src="/placeholder.svg?height=500&width=400"
+              src="person-using-smartphone-his-automated-home.jpg"
               alt="Smart Switch Device with touchscreen interface"
               width={400}
               height={500}
